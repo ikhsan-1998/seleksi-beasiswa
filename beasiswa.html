@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Sistem seleksi beasiswa sekolah</title>
+    </head>
+    <body>
+        <h2>Sistem seleksi beasiswa sekolah</h2>
+
+        <script>
+            let rataRata =prompt("MAsukkan nilai rata-rata:");
+            let penghasilanOrtu = prompt("Masukkan penghasilan orang tua:(Rp)");
+             document.write("Nilai Rata_rata: "+rataRata+"<br>");         
+            document.write("Penghasilan orang tua: "+penghasilanOrtu+"<br>");
+
+            if(rataRata >= 88 && penghasilanOrtu <= 3000000){
+                document.write("Berhak menerima beasiswa!!");
+            } else {
+                document.write("Tidak memenuhi syarat untuk menerima beasiswa");
+            }
+
+            
+        </script>
+    </body>
+</html>
